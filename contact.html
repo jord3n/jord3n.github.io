@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("sz40rueaQqXJAth-t");
+        })();
+    </script>
+</head>
+<body>
+    <header class="flex-column">
+        <nav class="nav flex-row">
+            <div class="flex-row">
+                <i class="fa-solid fa-bug"></i>
+                <h1>JORDAN WILLIAMS</h1>
+            </div>
+            <ul class="flex-row">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./resume.html">RESUME</a></li>
+                <li><a href="./projects.html">PROJECTS</a></li>
+                <li><a href="./contact.html" class="active">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="flex-column contact-cont">
+            <div class="projects-cont contact-grid fadeIn">
+                <div class="flex-column">
+                    <div>
+                        <h1 class="head-text">Contact</h1>
+                        <h5 class="body-text">Looking forward to hearing from you!</h5>
+                    </div>
+                    <div class="">
+                        <h5 class="head-text">Phone</h5>
+                        <h6 class="body-text">301-272-7311</h6>
+                    </div>
+                    <div class="">
+                        <h5 class="head-text">Email</h5>
+                        <h6 class="body-text">jordandamar0@gmail.com</h6>
+                    </div>
+                </div>
+                <div class="form-div">
+                    <section class="form-container flex-column">
+                        <form class="flex-column">
+                            <div class="form-grid">
+                                <div class="flex-column-alt input">
+                                    <label for="first_name" class="body-text">First Name</label>
+                                    <input type="text" id="first_name" class="body-text form-info">
+                                </div>
+                                <div class="flex-column-alt input">
+                                    <label for="last_name" class="body-text">Last Name</label>
+                                    <input type="text" id="last_name" class="body-text form-info">
+                                </div>
+                                <div class="flex-column-alt input">
+                                    <label for="email" class="body-text">Email Address*</label>
+                                    <input type="text" id="email" class="body-text form-info" required>
+                                </div>
+                                <div class="flex-column-alt input">
+                                    <label for="subject" class="body-text">Subject</label>
+                                    <input type="text" id="subject" class="body-text form-info">
+                                </div>
+                            </div>
+                            <div class="flex-row">
+                                <div class="flex-column-alt message">
+                                    <label for="message" class="body-text">Message*</label>
+                                    <textarea id="message" class="body-text" cols="20" rows="5" required></textarea>
+                                </div>
+                                <div class="btn flex-column">
+                                    <input type="submit" value="Send" class="head-text sendbtn title">
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<footer class="flex-row">
+    <div class="contact-container flex-row">
+        <div class="flex-column">
+            <h5 class="head-text">Phone</h5>
+            <h6 class="body-text">301-272-7311</h6>
+        </div>
+        <div class="flex-column">
+            <h5 class="head-text">Email</h5>
+            <h6 class="body-text">jordandamar0@gmail.com</h6>
+        </div>
+        <div class="flex-column">
+            <h5 class="head-text">Follow Me</h5>
+            <div class="flex-row">
+                <a href="https://www.linkedin.com/in/jordan-williams-593b1b1b6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com/jord3n" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="flex-column">
+            <h6 class="body-text">Original Design by Nicol Rider</h6>
+        </div>
+    </div>
+
+</footer>
+</html>

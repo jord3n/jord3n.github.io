@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="flex-column">
+        <nav class="nav flex-row">
+            <div class="flex-row">
+                <i class="fa-solid fa-bug"></i>
+                <h1>JORDAN WILLIAMS</h1>
+            </div>
+            <ul class="flex-row">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./resume.html">RESUME</a></li>
+                <li><a href="./projects.html" class="active">PROJECTS</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="projects flex-column">
+            <div class="projects-cont flex-column fadeIn">
+                <div class="project-head">
+                    <h1 class="head-text">PROJECTS</h1>
+                </div>
+                <div class="project flex-row">
+                    <div class="proj-desc flex-column">
+                        
+                        <h3 class="head-text">
+                            <a href="https://github.com/jord3n/DEV_Circle.git" target="_blank" class="git-link">
+                                DEV Circle
+                            </a>
+                            <i class="fa-brands fa-html5"></i>
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <i class="fa-brands fa-square-js"></i>
+                        </h3>
+                    
+                        <p class="body-text">
+                            This website integrates a JSON-based mock server, leveraging the Fetch API for streamlined data retrieval, 
+                            posting, and deletion, while generating a paginated display of individual posts. Users have complete control, with 
+                            the ability to create, edit, and delete their own posts, while also exploring an array of content from others within 
+                            the JSON dataset. A click on any individual post grants users access to its full content, enhancing their interactive 
+                            experience.
+                        </p>
+                    </div>
+                    <div class="proj-img">
+                        <img src="images/postsPageProject.png" alt="postpage" height="500" width="500">
+                    </div>
+                </div>
+
+                <div class="project flex-row">
+                    <div class="proj-desc flex-column">
+                        <h3 class="head-text">
+                            <a href="https://github.com/jord3n/Hospital_Database.git" target="_blank" class="git-link">
+                                Hospital Database
+                            </a>
+                            <i class="fa-solid fa-database"></i>
+                        </h3>
+                        <p class="body-text">
+                            Constructed utilizing a MySQL Server connection and SQL 
+                            programming language, this project exemplifies a 
+                            comprehensive hospital database system. The relational 
+                            database incorporates triggers, views, and a wide range 
+                            of queries, including aggregates, joins, nested queries, 
+                            and more.
+                        </p>
+                    </div>
+                    <div class="proj-img">
+                        <img src="images/hospital-database.png" alt="hospital-data" height="500" width="500">
+                    </div>
+                </div>
+
+                <div class="project flex-row">
+                    <div class="proj-desc flex-column">
+                        <h3 class="head-text">
+                            <a href="https://github.com/jord3n/LanguageStudyGUI.git" target="_blank" class="git-link">
+                                Language GUI
+                            </a>
+                            <i class="fa-brands fa-java"></i>
+                        </h3>
+                        <p class="body-text">
+                            Developed using Java, this graphical user interface (GUI) 
+                            serves as a dedicated tool for studying Italian. The 
+                            program retrieves either Italian or English words from a 
+                            file and presents them on-screen. Users are then prompted 
+                            to provide translations, converting English words to 
+                            Italian or Italian words to English accordingly.
+                        </p>
+                    </div>
+                    <div class="proj-img">
+                        <img src="images/languageGUI.png" alt="lang-gui" height="500" width="500">
+                    </div>
+                </div>
+
+                <div class="project flex-row">
+                    <div class="proj-desc flex-column">
+                        <h3 class="head-text">
+                            <a href="https://github.com/jord3n/Maze-Runner.git" rel="noopener" class="git-link">
+                                Maze-Runner
+                            </a>
+                            <i class="fa-brands fa-java"></i>
+                        </h3>
+                        <p class="body-text">
+                            Built in Java, this program showcases a mouse navigating a 
+                            maze. Employing an array stack, the program effectively 
+                            tracks the paths already traversed. The mouse dynamically 
+                            explores various paths until it successfully reaches the 
+                            exit. The user can adjust the program's speed or opt for a 
+                            step-by-step progression by clicking the 'step' function.
+                        </p>
+                    </div>
+                    <div class="proj-img">
+                        <img src="images/maze-runner.png" alt="lang-gui" height="500" width="500">
+                    </div>
+                </div>
+
+                <div class="project flex-row">
+                    <div class="proj-desc flex-column">
+
+                    </div>
+                </div>
+
+                <div class="project flex-row">
+                    <div class="proj-desc flex-column">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<footer class="flex-row">
+    <div class="contact-container flex-row">
+        <div class="flex-column">
+            <h5 class="head-text">Phone</h5>
+            <h6 class="body-text">301-272-7311</h6>
+        </div>
+        <div class="flex-column">
+            <h5 class="head-text">Email</h5>
+            <h6 class="body-text">jordandamar0@gmail.com</h6>
+        </div>
+        <div class="flex-column">
+            <h5 class="head-text">Follow Me</h5>
+            <div class="flex-row">
+                <a href="https://www.linkedin.com/in/jordan-williams-593b1b1b6" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.github.com/jord3n" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="flex-column">
+            <h6 class="body-text">Original Design by Nicol Rider</h6>
+        </div>
+    </div>
+
+</footer>
+</html>
